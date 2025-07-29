@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    height: 100vh;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main{
+    width: 100%;
+    min-width: 600px;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+ul{
+    padding-left: 0;
+}
+h2, h1{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+}
+.recipe{
+    display: flex;
+    height: 80%;
+}
+.process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+    padding: 0rem 3rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 699px) {
+    .recipe{
+        flex-direction: column;
+    }
+    .recipe-img{
+   min-width: 500px;
+}
+}
